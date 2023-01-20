@@ -11,6 +11,8 @@
 		232120EF297A9BC1006792DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232120EE297A9BC1006792DC /* ContentView.swift */; };
 		232120F1297A9BC2006792DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232120F0297A9BC2006792DC /* Assets.xcassets */; };
 		232120F5297A9BC2006792DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232120F4297A9BC2006792DC /* Preview Assets.xcassets */; };
+		232120FD297A9CF4006792DC /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232120FC297A9CF4006792DC /* Album.swift */; };
+		23212100297A9DD5006792DC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232120FF297A9DD5006792DC /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		232120F0297A9BC2006792DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232120F2297A9BC2006792DC /* AnimatedStickyHeader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimatedStickyHeader.entitlements; sourceTree = "<group>"; };
 		232120F4297A9BC2006792DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		232120FC297A9CF4006792DC /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		232120FF297A9DD5006792DC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		232120EB297A9BC1006792DC /* AnimatedStickyHeader */ = {
 			isa = PBXGroup;
 			children = (
+				232120FB297A9CED006792DC /* Model */,
+				232120FE297A9DCB006792DC /* View */,
 				232120EC297A9BC1006792DC /* AnimatedStickyHeaderApp.swift */,
 				232120EE297A9BC1006792DC /* ContentView.swift */,
 				232120F0297A9BC2006792DC /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				232120F4297A9BC2006792DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		232120FB297A9CED006792DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				232120FC297A9CF4006792DC /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		232120FE297A9DCB006792DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				232120FF297A9DD5006792DC /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 			files = (
 				232120EF297A9BC1006792DC /* ContentView.swift in Sources */,
 				232120ED297A9BC1006792DC /* AnimatedStickyHeaderApp.swift in Sources */,
+				23212100297A9DD5006792DC /* Home.swift in Sources */,
+				232120FD297A9CF4006792DC /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
